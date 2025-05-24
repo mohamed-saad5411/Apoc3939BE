@@ -33,8 +33,8 @@ const createCheckOutSession = async (req, res) => {
                 }
             ],
             mode: 'payment',
-            success_url: 'http://127.0.0.1:5500/src/success.html',
-            cancel_url: 'https://pngtree.com/so/cancel-icon',
+            success_url: 'https://mohamed-saad5411.github.io/Apoc3939FE/src/success.html',
+            cancel_url: 'https://mohamed-saad5411.github.io/Apoc3939FE/src/cancel.html',
             customer_email: email,
             client_reference_id: req.params.id,
             metadata: req.body
