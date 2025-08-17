@@ -8,7 +8,7 @@ let userRouter = express.Router()
 
 userRouter.get('/users', users)
 userRouter.post('/register', register)
-userRouter.post('/register/create-checkout-session/:id', createCheckOutSession)
+userRouter.post('/register/create-checkout-session', createCheckOutSession)
 
 
 
